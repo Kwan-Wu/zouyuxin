@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鄒の兴趣爱好</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <style>
+        /* 添加内联样式以确保图片横向排列 */
+        .flex-box {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .block {
+            flex: 0 0 calc(33.33% - 20px); /* 设置图片块的宽度，可根据需要调整 */
+            margin: 10px;
+        }
+
+        .block img {
+            max-width: 60%; /* 图片最大宽度 */
+            height: auto; /* 自动调整高度以保持宽高比 */
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav-box">
+            <font color="#333" face="楷体">鄒の个人介绍</font>
+            <ul class="nav">
+                <li><a href="index.html" class="on">Home</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="banner">我的爱好so simple 看帅哥嘿嘿</div>
+    <div class="main-box">
+        <div class="flex-box">
+            <div class="block">
+                <img src="./img/心头好.jpg" alt="心头好">
+            </div>
+            <div class="block">
+                <img src="./img/Justin.jpg" alt="Justin">
+            </div>
+            <div class="block">
+                <img src="./img/爱笑的男孩也帅.jpg" alt="爱笑的男孩也帅">
+            </div>
+            <div class="block">
+                <img src="./img/认真的男人最帅.jpg" alt="认真的男人最帅">
+            </div>
+            <div class="block">
+                <img src="./img/小哥. png" alt="小哥">
+            </div>
+            <div class="block">
+                <img src="./img/镜玄.jpg" alt="镜玄">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
